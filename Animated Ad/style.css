@@ -1,0 +1,178 @@
+
+.Ad{
+    background: #fff;
+    border: 1px solid #ccc;
+    display: block;
+    height: 250px;
+    margin: 50px auto;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 300px;
+    position: relative;
+}
+
+
+
+
+#cup1{
+    position:absolute;
+    top: 0px;
+    animation-name: cup;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes cup{
+    0%{
+        left:-200px;
+    }
+    100%{
+        left:0;
+    }
+}
+
+#cup2 {
+    position:absolute;
+    left:99px;
+    top:0px;
+    opacity:0;
+    animation-name: pour;
+    animation-duration: .25s;
+    animation-delay:1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes pour{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+#cup3{
+    position:absolute;
+    z-index: 1;
+    right:-200px;
+    top: 0px;
+    animation-name: pitcher;
+    animation-duration: 1s;
+    animation-delay:.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes pitcher{
+    0%{
+    }
+    100%{
+        right:0;
+    }
+}
+
+#whether{
+    position:absolute;
+    top: -20px;
+    animation-name: cup;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes cup{
+    0%{
+        left:-200px;
+    }
+    100%{
+        left:0;
+    }
+}
+
+#share{
+    position: absolute;
+    z-index: 3;
+    left:-275px;
+    animation-name: biglogo;
+    animation-duration: 18.5s;
+    animation-delay:4.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes biglogo{
+    0%{
+        left:-175px;
+    }
+    100%{
+        left:355px;
+    }
+}
+#mask{
+    width:0;
+    height:250px;
+    position: absolute;
+    z-index: 2;
+    background-color: #FFFFFF;
+    animation-name: mask;
+    animation-duration: 1.25s;
+    animation-delay:3.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes mask{
+    0%{
+        width:0;
+    }
+    100%{
+        width:355px;
+    }
+}
+#forlife{
+    position:absolute;
+    z-index: 5;
+    left:300px;
+    top:75px;
+    animation-name: smalllogo;
+    animation-duration: 2.25s;
+    animation-delay:16.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes smalllogo{
+    0%{
+        left:300px;
+    }
+    100%{
+        left:100px;
+    }
+}
+
+#link{
+    font-family: 'glober_regularregular';
+    font-size: 9pt;
+    color:#007754;
+    position:absolute;
+    z-index: 5;
+    left:217px;
+    top:180px;
+    text-decoration: none;
+    opacity:0;
+    animation-name: link;
+    animation-duration: 2.25s;
+    animation-delay:20.75s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes link{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+#link:hover{
+    color:#93251c;
+}
+
+
+
+
+
