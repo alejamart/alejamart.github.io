@@ -121,7 +121,7 @@ nav a:hover {
 .online{
   width:250px;
   height:50px;
-  background-color: #067655;
+  background-color: #F21261;
   position: absolute;
   top:0;
   right:0;
@@ -142,7 +142,7 @@ nav a:hover {
   text-decoration: none;
 }
 .shop a:hover{
-  color:#eba206;
+  color:#D6C72D;
 }
 
 @media only screen and (min-width: 401px) and (max-width:850px){
@@ -623,7 +623,7 @@ select{
     -webkit-box-shadow:none;
 }
 .form-style-1 .required{
-    color:red;
+    color:#F21261;
 }
 
 
